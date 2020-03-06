@@ -1,0 +1,11 @@
+.social-menu {
+  &__wrapper {
+    display: flex;
+    flex-flow: column;
+    max-width: 200px;
+
+    & > * {
+      margin-bottom: 5px;
+    }
+  }
+}
